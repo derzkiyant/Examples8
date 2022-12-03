@@ -106,7 +106,7 @@ void Task60()
 
     Random rand = new Random();
     int randNum = rand.Next(10, 100);
-    dinArray.Add(randNum);
+    dinArray.Add(-1);
 
     for (int i = 0; i < row; i++)
     {
